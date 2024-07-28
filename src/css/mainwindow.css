@@ -1,0 +1,39 @@
+/* 背景图片 */
+body{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position-x:center;
+    background-image:url("../img/230\ \(3\)-upscale-4x.png");
+    font-family: 'Microsoft YaHei';
+    color: #f0f0f0;
+}
+
+
+.main-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* opacity: 0.4; */
+    box-sizing: border-box;
+
+}
+
+.subpart{
+    margin: 1vh 0.5vw;
+    background-color: rgba(70,130,180, 0.6);
+    width: 30vw;
+    height: 60vh;
+    border-radius: 0.5vw;
+}
+
+.daydata-title{
+    text-align: center;
+    font-size: 2vw;
+    height: 10vh;
+    line-height: 10vh;
+}
+.daydata-echart{
+    /* width: 100%; */
+    height: 50vh;
+}
